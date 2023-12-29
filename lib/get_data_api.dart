@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 
 //! اوقات شرعی هر شهر گرفته میشود   باید نام شهر به تابع ارسال شود
 
-Future<OghatSharE> getOghatMashad(String cityName) async {
+Future<OghatSharE> getData(String cityName) async {
   //https://api.keybit.ir/owghat/?city=%D9%85%D8%B4%D9%87%D8%AF
   final response =
       await http.get(Uri.parse('https://api.keybit.ir/owghat/?city=$cityName'));
