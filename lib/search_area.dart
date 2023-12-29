@@ -25,7 +25,7 @@ class SearchFeild extends StatelessWidget {
             ),
             const SizedBox(height: 50),
             SizedBox(
-              height: 40,
+              height: 55,
               child: TextField(
                 textDirection: TextDirection.rtl,
                 decoration: InputDecoration(
