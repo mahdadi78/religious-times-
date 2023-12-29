@@ -1,10 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_15/listtile.dart';
+import 'package:flutter_application_15/item.dart';
 
-class Items extends StatelessWidget {
+class Items extends StatefulWidget {
   const Items({
     super.key,
   });
+
+  @override
+  State<Items> createState() => _ItemsState();
+}
+
+class _ItemsState extends State<Items> {
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
